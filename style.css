@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #fdf6f8;
+  color: #222222;
+  line-height: 1.6;
+}
+
+.topo {
+  background: linear-gradient(135deg, #b81d56, #e0437c);
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.topo h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.topo p {
+  font-size: 15px;
+  opacity: 0.95;
+}
+
+.container {
+  max-width: 720px;
+  margin: 30px auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  border-left: 5px solid #b81d56;
+}
+
+.card h2 {
+  color: #b81d56;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 12px;
+  color: #444444;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #b81d56;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 11px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #931543;
+}
+
+.btn.whatsapp {
+  background-color: #1fa855;
+}
+
+.btn.whatsapp:hover {
+  background-color: #178743;
+}
+
+.rodape {
+  text-align: center;
+  padding: 24px 16px;
+  font-size: 13px;
+  color: #666666;
+}
